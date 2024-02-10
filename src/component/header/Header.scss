@@ -1,0 +1,40 @@
+
+.header-wrap {
+    .logo-c {
+        color: white;
+        // background-color: rgb(48, 137, 211);
+        padding-right: 19px;
+        padding-left: 19px;
+        border-radius: 10px;
+    }
+    // background-color:rgb(59 130 246 / .5);
+    background-color: #f8ece5;
+
+    .navbar {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-links {
+            list-style: none;
+
+            a {
+                text-transform: capitalize;
+                text-decoration: none;
+                color: rgb(59, 59, 59);
+                padding:10px 20px;
+                &.active{
+                    background-color: #81532A;
+                 
+                    color: white;
+                    border-radius: 10px;
+                }
+            }
+
+
+        }
+    }
+
+
+}
