@@ -8,9 +8,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from '../../pages/logo/Logo';
 
 
-
-
-
 const Header = () => {
 
     const { pathname } = useLocation()

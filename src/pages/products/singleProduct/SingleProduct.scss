@@ -1,0 +1,11 @@
+.single-product{
+    .wrap-image{
+        img{
+            border-radius: 20px;
+            object-fit: cover;
+        }
+    }
+    .single-product-content{
+        margin-left: 6%;
+    }
+}
